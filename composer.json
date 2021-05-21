@@ -1,0 +1,23 @@
+{
+    "name": "aigletter/mvc",
+    "description": "Mvc project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aigletter",
+            "email": "aigletter@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "psr/container": "2.0.x-dev",
+        "psr/log": "1.1.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\": "core",
+            "app\\": "app"
+        }
+    }
+}
