@@ -9,3 +9,10 @@ $this->get('/', function () {
 });
 
 $this->get('/user', [new \app\Controllers\UserController(), 'viewAction']);
+
+$this->get('/page', function ($id) {
+    // ...
+});
+$this->get('/student', function ($name, $age = null) {
+
+});
